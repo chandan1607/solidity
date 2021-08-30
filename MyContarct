@@ -1,0 +1,12 @@
+
+pragma solidity 0.5.1;
+contract Mycontract{
+    string public constant stringvalue ="1bitcoin";
+    bool public myBool = true;
+   
+   
+
+    // function set(string memory _value ) public {
+    //     value = _value; 
+    // }
+}
