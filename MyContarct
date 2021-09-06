@@ -6,7 +6,7 @@ contract Mycontract{
    
    
 
-    // function set(string memory _value ) public {
-    //     value = _value; 
-    // }
+     function set(string memory _value ) public {
+         value = _value; 
+     }
 }
