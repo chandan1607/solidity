@@ -19,7 +19,13 @@ contract smart{
         string lastName;
         
     }
-    function addPerson(string memory firstName , string memory lastName) public onlyOwner{
+    function addPerson(
+    string memory firstName ,
+    string memory lastName
+    ) 
+    
+    public 
+    onlyOwner{
         increment();
         people[count] =person(count,firstName,lastName);
         
