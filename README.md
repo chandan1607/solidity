@@ -1,2 +1,2 @@
 # solidity
-simple solidity programs
+simple solidity programs (blockchain)
