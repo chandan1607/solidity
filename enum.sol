@@ -1,5 +1,5 @@
 pragma solidity 0.5.1;
-
+//smart-contract
 contract example{
     enum State {Waiting,Ready,Active}
     State public state;
