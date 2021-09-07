@@ -6,13 +6,12 @@ contract smart {
     struct person {
         string firstName;
         string lastName;
-        
     }
-    function addPerson( string memory firstName, string memory lastName) public  {
-        
+    function addPerson( string memory firstName, string memory lastName) public  
+    {
+    
         people.push(person(firstName,lastName));
-        count += 1;
-        
+        count += 1;    
     }
 }
 
