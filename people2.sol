@@ -1,9 +1,11 @@
 //key value mapping 
-contract smart{
+contract smart
+{
     uint256 public count = 0;
     mapping(uint => person) public people;
     
-    struct person{
+    struct person
+    {
         uint id;
         string firstName;
         string lastName;
