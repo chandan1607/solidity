@@ -13,28 +13,24 @@ contract smart{
         owner = msg.sender;
     }
     
-    struct person{
+    struct person
+    {
         uint id;
         string firstName;
-        string lastName;
-        
+        string lastName;  
     }
     function addPerson(
     string memory firstName ,
     string memory lastName
     ) 
-    
     public 
     onlyOwner{
         increment();
         people[count] =person(count,firstName,lastName);
         
     }
-    
     function increment () internal {
         count+=1;
-        
-        
     }
 }
 
