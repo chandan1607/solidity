@@ -1,6 +1,7 @@
 pragma solidity 0.5.1;
 
-contract ERC20Token {
+contract ERC20Token 
+{
     string name;
     mapping(address => uint256) public balances;
 
