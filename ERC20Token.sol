@@ -24,4 +24,5 @@ contract MyContract {
         _token.mint();
         wallet.transfer(msg.value);
     }
+
 }
