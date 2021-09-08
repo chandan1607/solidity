@@ -1,5 +1,4 @@
 pragma solidity 0.5.1;
-
 contract walletTransfer 
 {
     mapping(address => uint256) public balances;
