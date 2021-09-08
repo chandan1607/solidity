@@ -34,3 +34,4 @@ contract MyToken is ERC20Token {
     }
 
 }
+
