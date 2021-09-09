@@ -1,4 +1,3 @@
-//key value mapping 
 contract smart
 {
     uint256 public count = 0;
