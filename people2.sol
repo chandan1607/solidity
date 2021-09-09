@@ -14,6 +14,5 @@ contract smart
     function addPerson(string memory firstName , string memory lastName) public{
         count+=1;
         people[count] =person(count,firstName,lastName);
-        
     }
 }
