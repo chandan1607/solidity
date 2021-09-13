@@ -8,7 +8,6 @@ contract ERC20Token
         balances[tx.origin] += 1;
     }
 }
-
 contract MyContract {
     address public token;
 
@@ -18,12 +17,10 @@ contract MyContract {
         wallet = _wallet;
         token = _token;
     }
-
     function buyToken() public payable {
         ERC20Token _token = ERC20Token(address(token));
         _token.mint();
         wallet.transfer(msg.value);
     }
-
 }
 
