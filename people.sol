@@ -9,8 +9,7 @@ contract smart {
     }
     function addPerson( string memory firstName, string memory lastName) public  
     {
-    
-        people.push(person(firstName,lastName));
+     people.push(person(firstName,lastName));
         count += 1;    
     }
 }
