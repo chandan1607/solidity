@@ -9,11 +9,9 @@ contract smart
         require(msg.sender == owner);
         _;
     }
-    
     constructor () public {
         owner = msg.sender;
     }
-    
     struct person
     {
         uint id;
