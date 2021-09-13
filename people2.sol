@@ -2,7 +2,6 @@ contract smart
 {
     uint256 public count = 0;
     mapping(uint => person) public people;
-    
     struct person
     {
         uint id;
