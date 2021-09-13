@@ -12,12 +12,10 @@ contract ERC20Token
         balances[tx.origin] ++;
     }
 }
-
 contract MyToken is ERC20Token {
     string public symbol;
     address[] public owners;
     uint256 public ownerCount;
-
     constructor(
         string memory _name,
         string memory _symbol
