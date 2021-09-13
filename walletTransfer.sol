@@ -9,13 +9,11 @@ contract walletTransfer
     {
         wallet = _wallet;
     }
-    
     function buyToken() public payable 
     {
         //buyToken
         balances[msg.sender] +=1;
         //semd to wallet
         wallet.transfer(msg.value);
-        
     }
 }
