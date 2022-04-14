@@ -32,7 +32,7 @@ contract TokenERC20{
         require(balancesOf[msg.sender] >= _value);
         balancesOf[msg.sender] -= _value;
         totalSupply -= _value;
-        return true;
+        return true; 
     }
 
 }
